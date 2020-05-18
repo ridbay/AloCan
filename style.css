@@ -4,6 +4,7 @@ html {
 
 body{
   font-family: 'Raleway', sans-serif;
+  background-color: #E5E5E5;
 }
 @media (min-width: 768px) {
   html {
@@ -11,6 +12,25 @@ body{
   }
 }
 
+.nav-text {
+  font-style: normal;
+font-weight: 300;
+/* font-size: 29px; */
+line-height: 34px;
+}
+.hero-section {
+ width: 33%;
+}
 .hero-text {
   color: #ED1C24;
+  font-size: 40px;
+}
+
+.hero-desc {
+    flex-grow: 4; /* default 0 */
+}
+
+.hero-image {
+  margin-top: auto;
+  width: 60%;
 }
