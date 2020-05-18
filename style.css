@@ -1,21 +1,16 @@
 html {
   font-size: 14px;
 }
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
 
-.nav-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo-container{
-  margin-right: auto;
-}
-
-.icon-container {
-  margin-left: auto;
+.hero-text {
+  color: #ED1C24;
 }
