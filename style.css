@@ -107,6 +107,13 @@ body {
     color: #6B6B6A;
 }
 
+.above-about {
+    position: absolute;
+    z-index: 10;
+    right: 50%;
+    bottom: 80%;
+}
+
 .company-profile>h1 {
     color: #ED1C24;
     font-size: 40px;
@@ -116,9 +123,13 @@ body {
 .offerings {
     position: absolute;
     /* margin: 200px; */
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 700px;
     z-index: 9;
+}
+
+.offerings>h1 {
+    color: #ED1C24;
 }
 
 .card-deck .image-box {
@@ -139,9 +150,11 @@ body {
 }
 
 .card-deck h1 {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     color: #ED1C24;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .card-deck button {
