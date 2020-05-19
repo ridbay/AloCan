@@ -94,7 +94,7 @@ body {
   text-align: center;
   color: #6B6B6A;
 }
-.company-profile h1 {
+.company-profile > h1 {
 
     color: #ED1C24;
     font-size: 40px;
