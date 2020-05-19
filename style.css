@@ -1,3 +1,4 @@
+
 html {
     font-size: 14px;
 }
@@ -59,6 +60,13 @@ body {
     background: #6B6B6A;
 }
 
+hr {
+  border: 2px solid #FFE09D;
+  width: 80%; 
+  margin: auto; 
+  margin-top: 5%; 
+  margin-bottom: 5%;
+}
 .hero-image2 {
     /* margin-top: auto; */
     /* align-self: center; */
@@ -113,8 +121,10 @@ body {
 .above-about {
     position: absolute;
     z-index: 10;
-    right: 50%;
-    bottom: 80%;
+    /* right: 50%; */
+    top: 0;
+    left: -350px;
+    /* bottom: 60%; */
 }
 .above-about-box {
   background: #FFFFFF;
@@ -187,3 +197,7 @@ max-height: 170px; */
     height: 62px;
     color: #01942A;
 }
+
+.clearfix{
+  clear:both;
+  }
