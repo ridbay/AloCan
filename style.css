@@ -68,3 +68,13 @@ body {
   /* box-shadow: 21px 17px 36px rgba(0, 0, 0, 0.05); */
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
+
+
+.testing {
+  display: flex;
+  justify-content : center;            
+  align-items: center;
+}
+.social-icons {
+  align-self: flex-end;
+}
