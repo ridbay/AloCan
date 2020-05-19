@@ -110,7 +110,7 @@ body {
 .above-about {
     position: absolute;
     z-index: 10;
-    right: 50%;
+    right: 40%;
     bottom: 80%;
 }
 
