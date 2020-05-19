@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #FFFBE3;
+    overflow-x:hidden;
 }
 
 @media (min-width: 768px) {
@@ -111,7 +112,7 @@ body {
 .above-about {
     position: absolute;
     z-index: 10;
-    right: 40%;
+    right: 50%;
     bottom: 80%;
 }
 .above-about-box {
