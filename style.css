@@ -20,6 +20,7 @@ body {
     line-height: 34px;
 }
 
+/* HOMEPAGE */
 .hero-section {
     width: 70%;
     /* position: relative; */
@@ -112,6 +113,25 @@ body {
     z-index: 10;
     right: 40%;
     bottom: 80%;
+}
+.above-about-box {
+  background: #FFFFFF;
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+/* max-width: 220px;
+max-height: 170px; */
+}
+.above-about-box img {
+  /* margin: 20px; */
+  /* width: fit-content;
+  height: max-content; */
+}
+.above-about-box h5 {
+  color: #ED1C24;
+  font-weight: bold;
+}
+.above-about-box .card-text {
+  color: #6B6B6A;
+  font-size: 12px;
 }
 
 .company-profile>h1 {
