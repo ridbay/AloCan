@@ -164,6 +164,13 @@ max-height: 170px; */
     color: #ED1C24;
 }
 
+.card-deck .card{
+  background-color: #FFE09D;
+  border: 1px solid #FFE09D;
+box-sizing: border-box;
+box-shadow: 0px 0px 20px rgba(255, 224, 157, 0.5);
+border-radius: 3px;
+}
 .card-deck .image-box {
     width: 150px;
     height: 150px;
