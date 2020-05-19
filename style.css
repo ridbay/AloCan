@@ -96,6 +96,7 @@ hr {
     height: 100vh;
     margin-left: 70px;
     margin-top: 70px;
+    /* overflow: hidden; */
 }
 
 .company-profile {
@@ -205,6 +206,13 @@ border-radius: 3px;
     color: #01942A;
 }
 
-.clearfix{
-  clear:both;
+
+  .clear-above-positioning {
+    margin-top: 700px;
+  }
+
+  .blog-section img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
   }
