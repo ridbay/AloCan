@@ -2,10 +2,11 @@ html {
   font-size: 14px;
 }
 
-body{
+body {
   font-family: 'Raleway', sans-serif;
-  background-color: #E5E5E5;
+  background-color: #FFFBE3;
 }
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -14,23 +15,56 @@ body{
 
 .nav-text {
   font-style: normal;
-font-weight: 300;
-/* font-size: 29px; */
-line-height: 34px;
+  font-weight: 300;
+  /* font-size: 29px; */
+  line-height: 34px;
 }
+
 .hero-section {
- width: 33%;
+  width: 70%;
+  /* position: relative; */
 }
+
 .hero-text {
   color: #ED1C24;
   font-size: 40px;
 }
 
 .hero-desc {
-    flex-grow: 4; /* default 0 */
+  /* flex-grow: 4; */
 }
 
-.hero-image {
-  margin-top: auto;
-  width: 60%;
+.hero-image1 {
+  /* margin-top: auto; */
+  /* width: 100%; */
+  margin: 0;
+  width: 20em;
+}
+.hero-button {
+  
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  /* background-color: #bbb; */
+  border-radius: 50%;
+  border: 1px solid #6B6B6A;
+  display: inline-block;
+  margin-top: 90px;
+}
+
+.dot:first-child {
+  background: #6B6B6A;
+}
+
+.hero-image2 {
+  /* margin-top: auto; */
+  /* align-self: center; */
+  /* left: 1639px;
+  top: 364px; */
+  /* position: absolute; */
+  width: 30em;
+  /* box-shadow: 21px 17px 36px rgba(0, 0, 0, 0.05); */
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
