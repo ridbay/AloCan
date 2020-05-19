@@ -216,3 +216,10 @@ border-radius: 3px;
     margin-bottom: 20px;
     margin-right: 20px;
   }
+
+  .blog-section a{
+    border: 1px solid #01942A;
+box-sizing: border-box;
+background-color: #FFFFFF;
+color: #01942A;
+  }
