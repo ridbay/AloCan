@@ -233,3 +233,19 @@ max-height: 170px; */
   background-color: #FFFFFF;
   color: #01942A;
 }
+.blog-section .more-post {
+  color: #ED1C24;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.blog-section .arrow {
+  margin-top: 50px;
+}
+
+/* RED TEXT COLOR */
+
+.red {
+  color: #ED1C24;
+}
+
