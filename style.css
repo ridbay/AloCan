@@ -83,9 +83,11 @@ hr {
   /* box-shadow: 21px 17px 36px rgba(0, 0, 0, 0.05); */
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
+
 .hero-image2-box {
- margin-left: -400px;
+  margin-left: -400px;
 }
+
 .testing {
   display: flex;
   justify-content: center;
@@ -139,7 +141,7 @@ hr {
 }
 
 .above-about-box {
-  background: #FFFFFF;
+  background: #B5B1A3;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
   max-width: 300px;
   max-height: 170px;
@@ -182,7 +184,7 @@ hr {
   color: #ED1C24;
 }
 
-.card-deck .card {
+.offerings .card-deck .card {
   background-color: #FFE09D;
   border: 1px solid #FFE09D;
   box-sizing: border-box;
