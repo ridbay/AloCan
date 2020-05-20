@@ -247,6 +247,10 @@ max-height: 170px; */
   /* margin-right: 20px; */
 }
 
+.subscribe p {
+  font-size: 20px;
+  color: #6B6B6A;
+}
 /* RED TEXT COLOR */
 
 .red {
