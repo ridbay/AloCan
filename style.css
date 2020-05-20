@@ -44,7 +44,10 @@ body {
   width: 20em;
 }
 
-.hero-button {}
+.hero-section .hero-button {
+  border: 1px solid #01942A;
+box-sizing: border-box;
+}
 
 .dot {
   height: 10px;
