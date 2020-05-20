@@ -217,6 +217,10 @@ max-height: 170px; */
 .clear-above-positioning {
   margin-top: 700px;
 }
+.blog-section h2 {
+  /* text-align: center; */
+  margin-left: 90px;
+}
 
 .blog-section img {
   width: 100%;
@@ -224,11 +228,6 @@ max-height: 170px; */
   margin-right: 20px;
 }
 
-.blog-section .arrow {
-  width: 20%;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
 
 .blog-section a {
   border: 1px solid #01942A;
@@ -243,7 +242,9 @@ max-height: 170px; */
 }
 
 .blog-section .arrow {
-  margin-top: 50px;
+  /* width: 20%; */
+  margin-bottom: 90px;
+  /* margin-right: 20px; */
 }
 
 /* RED TEXT COLOR */
