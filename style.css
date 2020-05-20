@@ -93,7 +93,9 @@ hr {
   justify-content: center;
   align-items: center;
 }
-
+.natural-component img {
+  transform: rotate(-36.18deg);
+}
 .social-icons {
   align-self: flex-end;
 }
@@ -152,7 +154,7 @@ hr {
   width: 150px;
   height: 100px;
   margin-top: 20px;
-  /* margin-right: 50px; */ 
+  /* margin-right: 50px; */
   padding-right: 10px;
   mix-blend-mode: multiply;
 }
@@ -166,17 +168,25 @@ hr {
   color: #6B6B6A;
   font-size: 12px;
 }
+
 .above-about-box .watch {
   color: #01942A;
   white-space: nowrap;
   font-size: 12px;
 }
 
-
 .company-profile>h1 {
   color: #ED1C24;
   font-size: 40px;
   text-align: center;
+}
+
+.company-profile h2 {
+  font-size: 30px;
+}
+
+.company-profile img {
+  width: fit-content;
 }
 
 .offerings {
