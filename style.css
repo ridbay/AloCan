@@ -210,8 +210,8 @@ hr {
 }
 
 .offerings .card-deck .card {
-  background-color: #B5B1A3;;
-  border: 1px solid #FFE09D;
+  background-color: #D5C183;
+  /* border: 1px solid #D5C183;; */
   box-sizing: border-box;
   box-shadow: 0px 0px 20px rgba(255, 224, 157, 0.5);
   border-radius: 3px;
@@ -232,10 +232,11 @@ hr {
 .offerings .card-deck p {
   font-size: 1em;
   text-align: center;
+  color: #6B6B6A;
 }
 
 .offerings .card-deck h1 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   color: #ED1C24;
   font-style: normal;
