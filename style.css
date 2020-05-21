@@ -114,7 +114,8 @@ hr {
 }
 
 .above-about-box {
-  background: #D5C183;;
+  background: #D5C183;
+  ;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
   max-width: 300px;
   max-height: 170px;
@@ -286,6 +287,7 @@ hr {
 .subscribe h2 {
   font-weight: bold;
 }
+
 .subscribe p {
   font-size: 20px;
   color: #6B6B6A;
@@ -318,4 +320,21 @@ hr {
 
 .green {
   color: #01942A;
+}
+
+/* PRODUCTS PAGE */
+
+.products input, .products select {
+  background: rgba(229, 229, 229, 0.3);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.products label {
+  text-align: center;
+  color: #6B6B6A;
+  white-space: nowrap;
+}
+.products select {
+  color: rgba(34, 34, 33, 0.47);
 }

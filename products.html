@@ -72,12 +72,13 @@
     </div>
   </nav>
 
+  <!-- THE FIRST 3 IMAGES SECTION -->
   <div class="container">
     <div class="row justify-content-center align-content-center">
       <div class="col-md-4 align-self-end">
         <img class="svg img-fluid" src="./images/heap_powder.svg" alt="">
       </div>
-      <div class="col-md-4"> 
+      <div class="col-md-4">
         <img class="svg img-fluid" src="./images/grouped-products.svg" alt="">
       </div>
       <div class="col-md-4 align-self-end">
@@ -85,5 +86,41 @@
       </div>
     </div>
   </div>
-  </body>
-  </html>
+  <!-- THE FIRST 3 IMAGES SECTION END-->
+
+
+<div class="container products">
+  <h2 class="font-weight-bold pb-2 pt-2 red text-center">Our Products</h2>
+
+    <form class="form-inline">
+      <div class="form-group col-md-4">
+        <label class="col-sm-2 col-form-label mr-2" for="search">SEARCH</label>
+        <input type="text" class="form-control" id="search" placeholder="">
+      </div>
+      
+    
+      <div class="form-group col-md-4">
+        <label class="col-sm-2 col-form-label mr-4" for="price">BY PRICE</label>
+        <select id="price" class="form-control">
+          <option selected>Low to High</option>
+          <option>High to Low</option>
+        </select>
+      </div>
+    
+      <div class="form-group col-md-4">
+        <label class="col-sm-2 col-form-label mr-4" for="price">SORT BY</label>
+        <select id="price" class="form-control mb-2 mr-sm-2">
+          <option selected>Popular Item</option>
+          <option>Recent Item</option>
+        </select>
+      </div>
+    
+      <!-- <button type="submit" class="btn btn-primary mb-2">Submit</button> -->
+    </form>
+
+</div>
+
+  <hr>
+</body>
+
+</html>
