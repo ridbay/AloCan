@@ -413,7 +413,9 @@ hr {
   box-sizing: border-box;
   color: #01942A;
   /* margin: 0 15px; */
-  padding: 20px 40px;
+  padding: 0 40px;
+  padding-top: 19px;
+  padding-bottom: 22px;
 }
 .single-product .btn {
   background: #FFFFFF;
