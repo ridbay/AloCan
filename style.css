@@ -400,7 +400,6 @@ hr {
   font-size: 20px;
 }
 .single-product img {
-  /* width: fit-content; */
   width: 100%;
 }
 .single-product .description {
@@ -450,6 +449,10 @@ hr {
 
 .single-product .star-checked {
   color: #EAC916;
+}
+
+.single-product .return-icon {
+width: 8%;
 }
 
 /* MEDIA QUERIES */
