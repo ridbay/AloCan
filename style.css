@@ -407,21 +407,39 @@ hr {
   font-size: 25px;
 }
 
-.single-product button {
+.single-product .button {
   background: #FFFFFF;
   border: 1px solid #01942A;
   box-sizing: border-box;
-  /* width: 40px; */
+  color: #01942A;
+  /* margin: 0 15px; */
+  padding: 20px 40px;
+}
+.single-product .btn {
+  background: #FFFFFF;
+  border: 1px solid #01942A;
+  box-sizing: border-box;
+  color: #01942A;
+  /* margin: 0 15px; */
+  /* margin-left: -10px; */
+  padding: 17px 40px;
+  border-radius: 1px;
+
 }
 
-.single-product .addToCart{
+.button:hover, button:hover {
+  background: #01942A;
+  color: #fff;
+}
+
+.single-product .addToCart {
   background: #01942A;
   color: #FFFFFF;
 }
+
 .single-product .star-checked {
   color: #EAC916;
 }
-
 
 /* MEDIA QUERIES */
 
