@@ -418,8 +418,8 @@ hr {
   color: #01942A;
   /* margin: 0 15px; */
   padding: 0 40px;
-  padding-top: 17px;
-  padding-bottom: 26px;
+  padding-top: 0.7em;
+  padding-bottom: 1.03em;
   font-size: 1.5em;
 }
 .single-product .btn {
