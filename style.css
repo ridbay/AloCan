@@ -376,7 +376,9 @@ hr {
 .img-100 {
   height: 100%;
 }
-
+.product .price{
+  margin-bottom: 30px;
+}
 .load-more {
   background: #FFFFFF;
   border: 1px solid #01942A;
