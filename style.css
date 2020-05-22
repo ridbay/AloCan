@@ -8,11 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
 
 .nav-text {
   font-style: normal;
@@ -371,7 +366,12 @@ hr {
   padding: 70px;
 }
 
+
+/* MEDIA QUERIES */
 @media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
   .single-product .review {
     margin-left: 550px;
   }
