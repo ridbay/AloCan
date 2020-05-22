@@ -454,6 +454,9 @@ hr {
 .single-product .return-icon {
 width: 8%;
 }
+.single-product .return-icon + p {
+  color: #6B6B6A;;
+  }
 
 /* MEDIA QUERIES */
 
