@@ -396,6 +396,10 @@ hr {
   padding: 70px;
 }
 
+.single-product .title {
+  font-size: 20px;
+}
+
 .single-product .description {
   color: #6B6B6A;
   font-size: 18px;
@@ -414,8 +418,9 @@ hr {
   color: #01942A;
   /* margin: 0 15px; */
   padding: 0 40px;
-  padding-top: 19px;
-  padding-bottom: 22px;
+  padding-top: 17px;
+  padding-bottom: 26px;
+  font-size: 1.5em;
 }
 .single-product .btn {
   background: #FFFFFF;
@@ -426,10 +431,11 @@ hr {
   /* margin-left: -10px; */
   padding: 17px 40px;
   border-radius: 1px;
+  font-size: 1.5em;
 
 }
 
-.button:hover, button:hover {
+.button:hover, .btn:hover {
   background: #01942A;
   color: #fff;
 }
