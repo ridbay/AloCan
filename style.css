@@ -350,11 +350,7 @@ hr {
 
 .first-product .arrow {
   width: 13%;
-
- /* color: #ED1C24; */
- /* border: 0.2px solid #ED1C24; */
 }
-
 
 .nowrap {
   flex-wrap: nowrap !important;
@@ -395,9 +391,11 @@ hr {
 .single-product .title {
   font-size: 20px;
 }
+
 .single-product img {
   width: 100%;
 }
+
 .single-product .description {
   color: #6B6B6A;
   font-size: 18px;
@@ -420,6 +418,7 @@ hr {
   padding-bottom: 1.03em;
   font-size: 1.5em;
 }
+
 .single-product .btn {
   background: #FFFFFF;
   border: 1px solid #01942A;
@@ -430,7 +429,6 @@ hr {
   padding: 17px 40px;
   border-radius: 1px;
   font-size: 1.5em;
-
 }
 
 .button:hover, .btn:hover {
@@ -448,11 +446,13 @@ hr {
 }
 
 .single-product .return-icon {
-width: 8%;
+  width: 8%;
 }
-.single-product .return-icon + p {
-  color: #6B6B6A;;
-  }
+
+.single-product .return-icon+p {
+  color: #6B6B6A;
+  ;
+}
 
 /* MEDIA QUERIES */
 
