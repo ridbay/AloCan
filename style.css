@@ -336,7 +336,7 @@ hr {
 
 .product {
   background: #D5C183;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25); */
   color: #6B6B6A;
 }
 
