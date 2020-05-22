@@ -377,6 +377,14 @@ hr {
   height: 100%;
 }
 
+.load-more {
+  background: #FFFFFF;
+  border: 1px solid #01942A;
+  box-sizing: border-box;
+  color: #01942A;
+  border-radius: 1px;
+}
+
 /* SINGLE PRODUCT DETAILS */
 
 .single-product {
