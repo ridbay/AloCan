@@ -81,7 +81,7 @@ body {
 }
 
 hr {
-  border: 2px solid #B5B1A3;
+  border: 2px solid #D5C183;
   width: 85%;
   margin: auto;
   margin-top: 5%;
@@ -519,11 +519,6 @@ hr {
   border-radius: 2px;
   color: #01942A;
 }
-.shopping-cart .cart-title span {
-  /* margin-left: 30px; */
-  /* text-align: right; */
-  
-}
 
 .shopping-cart hr {
   border: 1px solid #D5C183;
@@ -566,7 +561,11 @@ hr {
   border-radius: 2px;
   color: #FFFFFF;
 }
-
+.shopping-cart-page .stone .image-box {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
 
 /* MEDIA QUERIES */
 
