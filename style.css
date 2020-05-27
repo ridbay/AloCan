@@ -490,6 +490,16 @@ hr {
 
 /*  CART */
 
+.cart .flower-box {
+  width: 100%;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.cart .root-image {
+  transform: rotate(100.92deg);
+  margin-right: -70px;
+}
 .cart h3 {
   color: #D5C183;
 }
