@@ -1,8 +1,8 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
-* {
+/* * {
   outline: 1px solid purple;
-}
+} */
 
 html {
   font-size: 14px;
@@ -492,28 +492,43 @@ hr {
 }
 
 /*  SHOPPING CART */
+
 .shopping-cart .cart-title {
   color: #6B6B6A;
-  
 }
+
 .shopping-cart hr {
   border: 1px solid #D5C183;
   width: 100%;
 }
+
 .cart-product .image-box {
   width: 80px;
   height: 80px;
   margin: 0 auto;
 }
+
 .cart-product .product-name {
-  color:#6B6B6A;
+  color: #6B6B6A;
 }
+
 .cart-product .quantity-input {
   background: #FFFFFF;
   border: 0.5px solid #01942A;
   box-sizing: border-box;
   border-radius: 2px;
   width: 50%;
+}
+
+.shopping-cart .payment-info {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.shopping-cart .payment-info hr{
+  border: 0.5px solid #D5C183;
 }
 
 /* MEDIA QUERIES */
