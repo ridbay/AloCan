@@ -1,3 +1,9 @@
+/* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
+
+/* * {
+  outline: 1px solid purple;
+} */
+
 html {
   font-size: 14px;
 }
@@ -466,7 +472,7 @@ hr {
   ;
 }
 
-/* SHOPPING CART */
+/*  CART */
 
 .cart h3 {
   color: #D5C183;
@@ -483,6 +489,31 @@ hr {
   box-sizing: border-box;
   color: #01942A;
   border-radius: 1px;
+}
+
+/*  SHOPPING CART */
+.shopping-cart .cart-title {
+  color: #6B6B6A;
+  font-size: 0.3em;
+}
+.shopping-cart hr {
+  border: 1px solid #D5C183;
+  width: 100%;
+}
+.cart-product .image-box {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.cart-product .product-name {
+  color:#6B6B6A;
+}
+.cart-product .quantity-input {
+  background: #FFFFFF;
+  border: 0.5px solid #01942A;
+  box-sizing: border-box;
+  border-radius: 2px;
+  /* width: 50%; */
 }
 
 /* MEDIA QUERIES */
