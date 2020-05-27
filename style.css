@@ -27,6 +27,7 @@ body {
   /* -webkit-transition: .35s; */
   /* transition: .35s; */
 }
+
 .nav-text {
   font-style: normal;
   font-weight: 300;
@@ -552,6 +553,14 @@ hr {
   box-sizing: border-box;
   border-radius: 2px;
   color: #FFFFFF;
+}
+
+.shopping-cart .cart-title button {
+  background: #FFFFFF;
+  border: 1px solid #01942A;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #01942A;
 }
 
 /* .shopping-cart .payment-info .card-details button .fa-arrow-right { 
