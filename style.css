@@ -532,6 +532,22 @@ hr {
   border: 0.5px solid #D5C183;
 }
 
+.shopping-cart .payment-info .card-details button {
+  background: #01942A;
+  border: 1px solid #01942A;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+/* .shopping-cart .payment-info .card-details button .fa-arrow-right { 
+  -webkit-transform: scale(1.5,1); 
+  -moz-transform: scale(1.5,1); 
+  -ms-transform: scale(1.5,1); 
+  -o-transform: scale(1.5,1); 
+  transform: scale(1.5,1);
+} */
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
