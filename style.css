@@ -331,7 +331,7 @@ hr {
 
 .red {
   color: #ED1C24;
-  background-color: white !important;
+  background-color:transparent !important;
 }
 
 .green {
