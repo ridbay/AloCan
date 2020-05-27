@@ -464,6 +464,15 @@ hr {
   ;
 }
 
+
+/* SHOPPING CART */
+.cart .fa-shopping-cart {
+  color: #EAC916;
+  width: 100px;
+  height: 100px;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
