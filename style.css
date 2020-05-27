@@ -14,11 +14,25 @@ body {
   overflow-x: hidden;
 }
 
+/* NAVBAR */
+
+.navbar {
+  /* Override  behaviour*/
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #6B6B6A;
+  /* -webkit-transition: .35s; */
+  /* transition: .35s; */
+}
 .nav-text {
   font-style: normal;
   font-weight: 300;
   /* font-size: 29px; */
   line-height: 34px;
+  color: #6B6B6A;
 }
 
 /* HOMEPAGE */
