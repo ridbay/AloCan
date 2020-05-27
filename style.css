@@ -316,6 +316,7 @@ hr {
 
 .red {
   color: #ED1C24;
+  background-color: white !important;
 }
 
 .green {
