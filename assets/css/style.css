@@ -666,6 +666,21 @@ margin-top: 700px; */
     width: 100%;
 }
 
+.blog-page .more-posts {
+    border: 1px solid #01942A;
+    box-sizing: border-box;
+    background-color: white;
+    color: #01942A;
+    border-radius: 1px;
+    padding: 10px 50px;
+}
+
+.blog-page .flat-stone {
+    width: 50%;
+    /* height: 150px; */
+    margin: 0 auto;
+}
+
 
 /* MEDIA QUERIES */
 
