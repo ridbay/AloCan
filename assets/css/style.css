@@ -704,6 +704,11 @@ margin-top: 700px; */
     padding: 10px 50px;
 }
 
+.blog-single-page .recent-posts .blog-desc {
+    background: #FFFFFF;
+    border: 1px solid #D5C183;
+}
+
 
 /* MEDIA QUERIES */
 
