@@ -646,6 +646,16 @@ margin-top: 700px; */
     margin: 100px 0;
 }
 
+/* BLOG PAGE */
+.blog-page .main-blog-desc {
+    background: #D5C183;
+    border: 1px solid #D5C183;
+}
+.blog-page .main-blog .image-box {
+    width: 100%;
+    /* height: 150px; */
+    margin: 0 auto;
+}
 
 /* MEDIA QUERIES */
 
