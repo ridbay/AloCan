@@ -614,7 +614,9 @@ margin-top: 700px; */
   height: 150px;
   margin: 0 auto;
 }
-
+.order-tracking-page .user-order-info {
+  font-size: 1.5em;
+}
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
