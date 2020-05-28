@@ -592,6 +592,7 @@ margin-top: 700px; */
 
 .order-tracking-page .no-order .fa-frown {
   color: #01942A;
+  margin-left: 40px;
 }
 
 .order-tracking-page .no-order .decription {
@@ -603,8 +604,16 @@ margin-top: 700px; */
   border: 1px solid #01942A;
   box-sizing: border-box;
   color: #01942A;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 1px;
 }
 
+.order-tracking-page .order-tracking-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
 
 /* MEDIA QUERIES */
 
