@@ -1,6 +1,5 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
-
 /* * {
   outline: 1px solid purple;
 } */
@@ -15,7 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-
 /* NAVBAR */
 
 .navbar {
@@ -24,8 +22,7 @@ body {
   box-shadow: none;
 }
 
-.navbar.navbar-light .breadcrumb .nav-item .nav-link,
-.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: #6B6B6A;
   /* -webkit-transition: .35s; */
   /* transition: .35s; */
@@ -38,7 +35,6 @@ body {
   line-height: 34px;
   color: #6B6B6A;
 }
-
 
 /* HOMEPAGE */
 
@@ -181,8 +177,7 @@ top: 364px; */
   height: 200px;
 }
 
-.company-profile h2,
-.company-profile p {
+.company-profile h2, .company-profile p {
   /* font-size: 42px; */
   /* line-height: 49px; */
   text-align: center;
@@ -332,7 +327,6 @@ margin-top: 700px; */
   font-weight: bold;
 }
 
-
 /*TEXT COLORS */
 
 .red {
@@ -344,11 +338,9 @@ margin-top: 700px; */
   color: #01942A;
 }
 
-
 /* PRODUCTS PAGE */
 
-.search input,
-.search select {
+.search input, .search select {
   background: rgba(229, 229, 229, 0.3);
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -370,8 +362,7 @@ margin-top: 700px; */
   color: #6B6B6A;
 }
 
-.first-product p,
-.first-product h3 {
+.first-product p, .first-product h3 {
   font-weight: 500;
   padding-left: 20px;
   margin-top: 50px;
@@ -419,7 +410,6 @@ margin-top: 700px; */
   color: #01942A;
   border-radius: 1px;
 }
-
 
 /* SINGLE PRODUCT DETAILS */
 
@@ -475,8 +465,7 @@ margin-top: 700px; */
   font-size: 1.5em;
 }
 
-.button:hover,
-.btn:hover {
+.button:hover, .btn:hover {
   background: #01942A;
   color: #fff;
 }
@@ -499,7 +488,6 @@ margin-top: 700px; */
   ;
 }
 
-
 /*  CART */
 
 .cart h3 {
@@ -518,7 +506,6 @@ margin-top: 700px; */
   color: #01942A;
   border-radius: 1px;
 }
-
 
 /*  SHOPPING CART */
 
@@ -582,7 +569,6 @@ margin-top: 700px; */
   margin: 0 auto;
 }
 
-
 /* ORDER TRACKING */
 
 .order-tracking-page .no-order {
@@ -614,20 +600,26 @@ margin-top: 700px; */
   height: 150px;
   margin: 0 auto;
 }
+
 .order-tracking-page .user-order-info {
   font-size: 1.5em;
 }
+
+.order-tracking-page .order-tracking-hr {
+  width: 100%;
+  margin: 100px 0;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
   html {
-      font-size: 16px;
+    font-size: 16px;
   }
   .single-product .review {
-      margin-left: 450px;
+    margin-left: 450px;
   }
 }
-
 
 /* @media screen 
 and (min-device-width: 768px) 
