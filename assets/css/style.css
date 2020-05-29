@@ -54,7 +54,7 @@ body {
 
 .hero-desc {
     /* flex-grow: 4; */
-    padding-right: 200px;
+    /* padding-right: 200px; */
 }
 
 .hero-image1 {
@@ -85,7 +85,7 @@ body {
 .carousel-indicators li {
     height: 10px;
     width: 10px;
-    /* background-color: #bbb; */
+    background-color: tomato;
     border-radius: 50%;
     border: 1px solid #6B6B6A;
     display: inline-block;
@@ -110,13 +110,14 @@ hr {
     /* left: 1639px;
 top: 364px; */
     /* position: absolute; */
-    width: 30em;
+    /* width: 30em; */
     /* box-shadow: 21px 17px 36px rgba(0, 0, 0, 0.05); */
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .hero-image2-box {
-    margin-left: -400px;
+    margin-left: -300px;
+    margin-top: 100px;
 }
 
 .testing {
@@ -354,6 +355,7 @@ margin-top: 700px; */
 
 .green {
     color: #01942A;
+    background-color: transparent !important;
 }
 
 .ash {
