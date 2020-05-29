@@ -68,6 +68,7 @@ body {
     border: 1px solid #01942A;
     box-sizing: border-box;
     color: #01942A;
+    border-radius: 1px;
 }
 
 .dot-box {
@@ -102,17 +103,6 @@ hr {
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-}
-
-.hero-image2 {
-    /* margin-top: auto; */
-    /* align-self: center; */
-    /* left: 1639px;
-top: 364px; */
-    /* position: absolute; */
-    /* width: 30em; */
-    /* box-shadow: 21px 17px 36px rgba(0, 0, 0, 0.05); */
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .hero-image2-box {
