@@ -1,8 +1,9 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
-* {
+
+/* * {
     outline: 1px solid purple;
-}
+} */
 
 html {
     font-size: 14px;
@@ -69,6 +70,18 @@ body {
     color: #01942A;
 }
 
+.dot-box {
+    /* float: left; */
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.carousel-indicators {
+    display: block;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
 .carousel-indicators li {
     height: 10px;
     width: 10px;
@@ -80,7 +93,7 @@ body {
 }
 
 .carousel-indicators li:first-child {
-    background: #6B6B6A;
+    /* background: #6B6B6A; */
 }
 
 hr {
