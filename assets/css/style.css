@@ -52,18 +52,6 @@ body {
     font-size: 40px;
 }
 
-.hero-desc {
-    /* flex-grow: 4; */
-    /* padding-right: 200px; */
-}
-
-.hero-image1 {
-    /* margin-top: auto; */
-    /* width: 100%; */
-    margin: 0;
-    width: 20em;
-}
-
 .hero-section .hero-button {
     border: 1px solid #01942A;
     box-sizing: border-box;
