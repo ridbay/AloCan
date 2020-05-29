@@ -596,6 +596,7 @@ margin-top: 700px; */
 
 /* ORDER TRACKING */
 
+.order-tracking-page .no-order,
 .order-tracking-page .order {
     background: #D5C183;
     padding: 30px;
