@@ -798,6 +798,15 @@ margin-top: 700px; */
 }
 
 
+/* CONTACT US PAGE */
+
+.contact-us-page .contact-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
