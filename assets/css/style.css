@@ -709,6 +709,7 @@ margin-top: 700px; */
     border: 1px solid #D5C183;
     border-left: 0;
     background-color: #FFFFFF;
+    /* box-shadow: 6px 8px 0 -6px black; */
 }
 
 .register .counter-box2 {
