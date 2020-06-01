@@ -781,6 +781,86 @@ margin-top: 700px; */
 }
 
 
+/* LOGIN PAGE */
+
+.login .login-box {
+    background: #FFFFFF;
+    border: 1px solid #D5C183;
+    box-sizing: border-box;
+    border-radius: 1px;
+}
+
+.login .counter-box1 {
+    border: 1px solid #D5C183;
+    border-left: 0;
+    background-color: #FFFFFF;
+    /* box-shadow: 6px 8px 0 -6px black; */
+}
+
+.login .counter-box2 {
+    background-color: #D5C183;
+}
+
+.login-box .gold {
+    color: #D5C183 !important;
+}
+
+.login .login-text {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.left-border {
+    border-left: 1px #D5C183 solid;
+}
+
+.login .input-border {
+    border: 1px solid #6B6B6A;
+    box-sizing: border-box;
+}
+
+
+/* .login .border-gold {
+    border: none;
+    border-bottom: 2px solid #D5C183;
+    box-sizing: border-box;
+} */
+
+
+/* .login .upper {
+    text-transform: uppercase;
+} */
+
+
+/* .login .padding {
+    padding-left: 15px;
+} */
+
+.login .root-image {
+    /* transform: rotate(100.92deg); */
+    position: relative;
+    left: -500;
+    top: 0;
+    margin-left: 0px;
+}
+
+.login .cone-image {
+    margin-right: -50px;
+    right: 0;
+    top: 8;
+    position: relative !important;
+    /* margin: 0 auto; */
+}
+
+.login .btn {
+    background: #FFFFFF;
+    border: 1px solid #01942A;
+    box-sizing: border-box;
+    color: #01942A;
+    border-radius: 1px;
+}
+
+
 /* CONTACT US PAGE */
 
 .contact-us-page .contact-card {
