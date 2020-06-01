@@ -806,6 +806,14 @@ margin-top: 700px; */
     border-radius: 2px;
 }
 
+.contact-us-page .contact-card button {
+    background: #FFFFFF;
+    border: 1px solid #01942A;
+    box-sizing: border-box;
+    color: #01942A;
+    border-radius: 1px;
+}
+
 
 /* MEDIA QUERIES */
 
