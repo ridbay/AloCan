@@ -1,7 +1,8 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
 
-/* * {
+/* 
+* {
     outline: 1px solid purple;
 } */
 
@@ -812,6 +813,13 @@ margin-top: 700px; */
     box-sizing: border-box;
     color: #01942A;
     border-radius: 1px;
+}
+
+.contact-us-page .image-box {
+    width: 150px;
+    height: 150px;
+    /* margin: 0 auto; */
+    align-self: flex-end;
 }
 
 
