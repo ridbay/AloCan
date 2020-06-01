@@ -708,8 +708,6 @@ margin-top: 700px; */
 .register .counter-box1 {
     border: 1px solid #D5C183;
     border-left: 0;
-    box-sizing: border-box;
-    border-radius: 1px;
     background-color: #FFFFFF;
 }
 
@@ -731,11 +729,7 @@ margin-top: 700px; */
 }
 
 .register .label {
-    font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
     color: #6B6B6A;
 }
 
@@ -744,19 +738,22 @@ margin-top: 700px; */
     box-sizing: border-box;
 }
 
-.register .border-gold {
+
+/* .register .border-gold {
     border: none;
     border-bottom: 2px solid #D5C183;
     box-sizing: border-box;
-}
+} */
 
-.register .upper {
+
+/* .register .upper {
     text-transform: uppercase;
-}
+} */
 
-.register .padding {
+
+/* .register .padding {
     padding-left: 15px;
-}
+} */
 
 .register .root-image {
     /* transform: rotate(100.92deg); */
@@ -779,11 +776,7 @@ margin-top: 700px; */
     border: 1px solid #01942A;
     box-sizing: border-box;
     color: #01942A;
-    /* margin: 0 15px; */
-    /* margin-left: -10px; */
-    padding: 5px 15px;
     border-radius: 1px;
-    font-size: 20px;
 }
 
 
