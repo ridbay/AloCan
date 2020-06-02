@@ -1,3 +1,18 @@
+//HIDE/SHOW SEARCH ICON AT THE NAV BAR
+const searchBox = document.querySelector("search-box");
+const searchIcon = document.querySelector("search-icon");
+const searchBtn = document.querySelector("search-btn");
+const closeBtn = document.querySelector("close-btn");
+
+searchBtn.addEventListener(click, () => {
+    searchBox.classList.add('active');
+    searchIcon.classList.add('active');
+})
+closeBtn.addEventListener(click, () => {
+    searchBox.classList.remove('active');
+    searchIcon.classList.remove('active');
+})
+
 // increase and decrease quantity in single product details
 
 let count = 1;

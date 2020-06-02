@@ -64,13 +64,38 @@ body {
 
 /* SEARCH AND CLOSE BUTTONS */
 
-.top-icons {
+.search-icon {
     display: flex;
     position: relative;
 }
 
-.top-icons img {
+.search-icon img,
+.search-icon i {
     position: absolute;
+}
+
+.search-icon i {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: 300ms;
+}
+
+.search-icon img {
+    pointer-events: auto;
+    transition: 300ms;
+}
+
+.search-icon.active img {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+}
+
+.search-icon.active i {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }
 
 
