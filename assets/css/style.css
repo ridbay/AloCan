@@ -802,10 +802,11 @@ margin-top: 700px; */
 /* LOGIN PAGE */
 
 .login .login-box {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #D5C183;
     box-sizing: border-box;
     border-radius: 1px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 .login .counter-box1 {
@@ -856,6 +857,14 @@ margin-top: 700px; */
     box-sizing: border-box;
     color: #01942A;
     border-radius: 1px;
+}
+
+.login .bottom-flower {
+    transform: matrix(-0.82, 0.02, 0.02, 0.82, 0, 0);
+    /* transform: rotate(-100.92deg); */
+    margin-top: -500px;
+    margin-right: -100px;
+    margin-bottom: -520px;
 }
 
 
