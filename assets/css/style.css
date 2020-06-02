@@ -192,20 +192,23 @@ hr {
     border-radius: 1px;
 }
 
-.ginseng {
-    /* background: url(./images/ginseng_root.svg); */
+
+/* .ginseng {
+    background: url(./images/ginseng_root.svg);
     transform: rotate(-5.35deg);
     margin-top: -500px;
     margin-bottom: -300px;
     width: 10%;
-}
+} */
 
+
+/* 
 .ginger-leaf {
     transform: rotate(-30.55deg);
-    /* margin-top: -100px; */
+    margin-top: -100px;
     margin-bottom: -700px;
-    /* margin-right: -900px; */
-}
+    margin-right: -900px;
+} */
 
 .offerings {
     /* position: absolute; */
@@ -369,29 +372,36 @@ margin-top: 700px; */
     /* margin-right: 5px; */
 }
 
-.products .first-product p,
+.products .product.col-md-4 {
+    max-width: 30%;
+}
+
+
+/* .products .first-product p,
 .products .first-product h3 {
     font-weight: 500;
     padding-left: 20px;
     margin-top: 50px;
     margin-left: 50px;
     font-size: 1.3em;
-}
+} */
 
-.products .first-product .arrow {
+
+/* .products .first-product .arrow {
     width: 13%;
-}
+} */
 
-.products .nowrap {
+
+/* .products .nowrap {
     flex-wrap: nowrap !important;
-    /* flex-wrap: inherit; */
-}
+} */
 
-.products .nowrap .image-box {
+
+/* .products .nowrap .image-box {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-}
+} */
 
 .products .product p {
     padding-left: 20px;
@@ -399,9 +409,10 @@ margin-top: 700px; */
     /* margin-left: 50px; */
 }
 
-.products .product-small h4 {
+
+/* .products .product-small h4 {
     font-size: 1em;
-}
+} */
 
 .products .product .price {
     margin-bottom: 30px;
