@@ -1,8 +1,7 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
 
-/* 
-* {
+/* * {
     outline: 1px solid purple;
 } */
 
@@ -19,83 +18,6 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #FFFFFF;
     overflow-x: hidden;
-}
-
-.nav-container {
-    /* margin-top: -40px; */
-    z-index: 500;
-    position: relative;
-}
-
-
-/* SEARCH BOX */
-
-.search-box {
-    /* display: none; */
-}
-
-.search-box {
-    /* background-color: red; */
-    width: 90%;
-    margin: 0 auto;
-    text-align: right;
-    position: relative;
-    top: 0;
-    transition: 300ms;
-    margin-top: -60px;
-}
-
-.search-box.active {
-    top: 72px;
-    border: 1px solid #D5C183;
-}
-
-.search-box input {
-    background: rgba(229, 229, 229, 0.3);
-    border: 1px solid #D5C183;
-    box-sizing: border-box;
-    /* padding: px 48px; */
-}
-
-.search-box input::placeholder {
-    color: #D5C183;
-}
-
-
-/* SEARCH AND CLOSE BUTTONS */
-
-.search-icon {
-    display: flex;
-    position: relative;
-}
-
-.search-icon .search-btn,
-.search-icon .close-btn {
-    position: absolute;
-}
-
-.search-icon .close-btn {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-8px);
-    transition: 300ms;
-}
-
-.search-icon .search-btn {
-    pointer-events: auto;
-    transition: 300ms;
-}
-
-.search-icon.active .search-btn {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-8px);
-}
-
-.search-icon.active .close-btn {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0);
 }
 
 
