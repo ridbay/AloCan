@@ -396,12 +396,12 @@ margin-top: 700px; */
     flex-wrap: nowrap !important;
 } */
 
-
-/* .products .nowrap .image-box {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-} */
+.products .top-images .image-box {
+    width: 40%;
+    height: 40%;
+    /* margin: 0 auto; */
+    /* margin-top: auto; */
+}
 
 .products .product p {
     padding-left: 20px;
