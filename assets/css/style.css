@@ -776,6 +776,15 @@ margin-top: 700px; */
     border-radius: 1px;
 }
 
+.register .bottom-flower {
+    transform: matrix(-0.82, 0.02, 0.02, 0.82, 0, 0);
+    /* transform: rotate(-100.92deg); */
+    margin-top: -400px;
+    margin-right: -100px;
+    margin-bottom: -400px;
+    width: 40%;
+}
+
 
 /* 
 .overlayContainer {
