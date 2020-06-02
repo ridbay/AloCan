@@ -1,9 +1,15 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
 
-/* * {
+/* 
+* {
     outline: 1px solid purple;
 } */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
 html {
     font-size: 14px;
@@ -13,6 +19,27 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #FFFFFF;
     overflow-x: hidden;
+}
+
+
+/* SEARCH BOX */
+
+.search-box {
+    /* display: none; */
+}
+
+.search-box {
+    background-color: red;
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+    top: 0;
+    transition: 300ms;
+}
+
+.search-box.active {
+    top: 72px;
 }
 
 
