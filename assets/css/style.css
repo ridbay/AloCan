@@ -669,7 +669,7 @@ margin-top: 700px; */
     width: 100%;
 }
 
-.blog-page .more-posts {
+.blog-page .more-postsbtn {
     border: 1px solid #01942A;
     box-sizing: border-box;
     background-color: white;
@@ -989,9 +989,15 @@ margin-top: 700px; */
     .blog-page .main-blog+h3 {
         text-align: center !important;
     }
-    .blog-page .recent-posts .individual-blog-post {
+    .blog-page .individual-blog-post {
         margin-bottom: 30px;
-        background-color: turquoise;
+    }
+    .blog-page .flat-stone {
+        margin-top: 10px;
+    }
+    .blog-page .more-post {
+        margin-top: -150px;
+        text-align: center;
     }
     .left-border {
         border-left: 0px;
