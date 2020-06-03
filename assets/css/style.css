@@ -1030,7 +1030,8 @@ margin-top: 700px; */
     .order-tracking-page .user-order-info p {
         text-align: left;
     }
-    .order-tracking-page .no-order button {
+    .order-tracking-page .no-order button,
+    .order-tracking-page .order button {
         margin-left: 90px;
     }
     .order-tracking-page .order-tracking-image {
