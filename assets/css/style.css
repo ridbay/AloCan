@@ -1,7 +1,8 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
 
-/* * {
+/* 
+* {
     outline: 1px solid purple;
 } */
 
@@ -608,7 +609,7 @@ margin-top: 700px; */
     padding: 30px;
 }
 
-.order-tracking-page .order .fa-frown {
+.order-tracking-page .no-order .fa-frown {
     color: #01942A;
     margin-left: 40px;
 }
@@ -619,10 +620,12 @@ margin-top: 700px; */
     transform: rotate(90deg);
 }
 
+.order-tracking-page .no-order .decription,
 .order-tracking-page .order .decription {
     margin-top: 40px;
 }
 
+.order-tracking-page .no-order button,
 .order-tracking-page .order button {
     background: #FFFFFF;
     border: 1px solid #01942A;
@@ -669,7 +672,7 @@ margin-top: 700px; */
     width: 100%;
 }
 
-.blog-page .more-posts {
+.blog-page .more-postsbtn {
     border: 1px solid #01942A;
     box-sizing: border-box;
     background-color: white;
@@ -912,7 +915,141 @@ margin-top: 700px; */
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-device-width: 768px) and (min-device-width: 320px) {
+    /* NAVIGATION BAR  */
+    .navbar .navbar-toggler {
+        margin-left: auto;
+    }
+    /* HOMEPAGE */
+    .hero-section {
+        text-align: center;
+    }
+    .hero-section .hero-text {
+        white-space: nowrap;
+        padding-bottom: 0;
+        /* margin-top: 50px; */
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .hero-section .hero-desc {
+        text-align: justify;
+    }
+    .hero-section .hero-image2-box {
+        margin: 0 auto;
+    }
+    .hero-section+.natural-component {
+        text-align: center;
+    }
+    .above-about {
+        /* text-align: center; */
+        margin: 0 auto;
+    }
+    .above-about-box .card-body {
+        margin: 0px;
+        padding: 0;
+    }
+    .above-about-box .image-box {
+        margin-top: 60px;
+    }
+    .above-about-box .image-box img {
+        width: 30%;
+        height: auto;
+        margin-top: -100px;
+    }
+    .company-profile {
+        padding: 0 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .company-profile h1 {
+        white-space: nowrap;
+    }
+    .company-profile p {
+        padding: 0 10px;
+    }
+    .blog-section .arrow {
+        /* margin-right: 100px; */
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 120px;
+    }
+    .subscribe .form-group input {
+        margin-left: 30px;
+        /* width: max-content; */
+    }
+    .subscribe .form-group button {
+        width: 50%;
+    }
+    /* BLOG PAGE */
+    .blog-page .main-blog .image-box {
+        width: 360px;
+    }
+    .blog-page .main-blog .blog-desc {
+        padding-top: 0 !important;
+    }
+    .blog-page .main-blog+h3 {
+        text-align: center !important;
+    }
+    .blog-page .individual-blog-post {
+        margin-bottom: 30px;
+    }
+    .blog-page .flat-stone {
+        margin-top: 10px;
+    }
+    .blog-page .more-post {
+        margin-top: -150px;
+        text-align: center;
+    }
+    /* SINGLE BLOG POST */
+    .blog-single-page .blog-post {
+        padding: 0;
+    }
+    .blog-single-page .blog-single-page-categories {
+        text-align: center;
+    }
+    .blog-single-page .allpostbtn {
+        margin-left: -350px !important;
+        margin-top: 10px;
+    }
+    .blog-single-page .recent-posts h2 {
+        text-align: center !important;
+    }
+    .blog-single-page .individual-blog-post {
+        margin-bottom: 30px;
+    }
+    /* CART PAGE */
+    .cart .flower-box,
+    .cart .root-image {
+        display: none;
+    }
+    /* ORDER TRACKING */
+    .order-tracking-page {
+        text-align: center;
+    }
+    .order-tracking-page .user-order-info p {
+        text-align: left;
+    }
+    .order-tracking-page .no-order button,
+    .order-tracking-page .order button {
+        margin-left: 90px;
+    }
+    .order-tracking-page .order-tracking-image {
+        /* margin-top: 60px; */
+        width: fit-content;
+        margin-bottom: 0 !important;
+    }
+    .order-tracking-page .order-tracking-image img {
+        width: 100%;
+    }
+    .order-tracking-page .order-tracking-hr {
+        width: 100%;
+        margin: 0;
+    }
+    .order-tracking-page .mobileGrid {
+        /* display: grid; */
+        text-align: left;
+    }
     .left-border {
         border-left: 0px;
         margin-top: 10px;
