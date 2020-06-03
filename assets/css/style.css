@@ -1000,6 +1000,23 @@ margin-top: 700px; */
         margin-top: -150px;
         text-align: center;
     }
+    /* SINGLE BLOG POST */
+    .blog-single-page .blog-post {
+        padding: 0;
+    }
+    .blog-single-page .blog-single-page-categories {
+        text-align: center;
+    }
+    .blog-single-page .allpostbtn {
+        margin-left: -350px !important;
+        margin-top: 10px;
+    }
+    .blog-single-page .recent-posts h2 {
+        text-align: center !important;
+    }
+    .blog-single-page .individual-blog-post {
+        margin-bottom: 30px;
+    }
     .left-border {
         border-left: 0px;
         margin-top: 10px;
