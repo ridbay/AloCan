@@ -1017,6 +1017,11 @@ margin-top: 700px; */
     .blog-single-page .individual-blog-post {
         margin-bottom: 30px;
     }
+    /* CART PAGE */
+    .cart .flower-box,
+    .cart .root-image {
+        display: none;
+    }
     .left-border {
         border-left: 0px;
         margin-top: 10px;
