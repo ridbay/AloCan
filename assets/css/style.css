@@ -918,6 +918,7 @@ margin-top: 700px; */
     .navbar .navbar-toggler {
         margin-left: auto;
     }
+    /* HOMEPAGE */
     .hero-section {
         text-align: center;
     }
@@ -977,6 +978,20 @@ margin-top: 700px; */
     }
     .subscribe .form-group button {
         width: 50%;
+    }
+    /* BLOG PAGE */
+    .blog-page .main-blog .image-box {
+        width: 360px;
+    }
+    .blog-page .main-blog .blog-desc {
+        padding-top: 0 !important;
+    }
+    .blog-page .main-blog+h3 {
+        text-align: center !important;
+    }
+    .blog-page .recent-posts .individual-blog-post {
+        margin-bottom: 30px;
+        background-color: turquoise;
     }
     .left-border {
         border-left: 0px;
