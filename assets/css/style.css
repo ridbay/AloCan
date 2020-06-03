@@ -48,7 +48,7 @@ body {
 /* HOMEPAGE */
 
 .hero-section {
-    width: 70%;
+    /* width: 70%; */
     /* position: relative; */
 }
 
@@ -912,11 +912,29 @@ margin-top: 700px; */
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    /* HOMEPAGE */
+    .hero-section {
+        text-align: center;
+    }
+    .hero-text {
+        white-space: nowrap;
+        font-size: 3em !important;
+    }
     .left-border {
         border-left: 0px;
         margin-top: 10px;
         border-top: 1px #D5C183 solid;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .hero-section {
+        text-align: center;
+    }
+    .hero-text {
+        white-space: nowrap;
+        font-size: 3em !important;
     }
 }
 
