@@ -1,8 +1,7 @@
 /* CSS DEBUGGING TO VISUALIZE ALL THE ELEMENTS ON THE PAGE */
 
 
-/* 
-* {
+/* * {
     outline: 1px solid purple;
 } */
 
@@ -92,7 +91,7 @@ body {
 }
 
 hr {
-    border: 2px solid #D5C183;
+    border: 1px solid #D5C183;
     width: 85%;
     margin: auto;
     margin-top: 5%;
@@ -540,53 +539,102 @@ margin-top: 700px; */
 
 /*  SHOPPING CART */
 
-.shopping-cart .cart-title {
-    color: #6B6B6A;
-}
-
-.shopping-cart .cart-title button {
-    background: #FFFFFF;
-    border: 1px solid #01942A;
-    box-sizing: border-box;
-    border-radius: 2px;
-    color: #01942A;
-}
-
-.shopping-cart hr {
-    border: 1px solid #D5C183;
-    width: 100%;
-}
-
-.cart-product .image-box {
+.shopping-cart2-page .stone .image-box {
     width: 80px;
     height: 80px;
     margin: 0 auto;
 }
 
-.cart-product .product-name {
-    color: #6B6B6A;
+.shopping-cart2-page .cart-2 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    padding: 100px
 }
 
-.cart-product .quantity-input {
+.shopping-cart2-page .cart-2 .cart-button1 {
+    background: #FFFFFF;
+    border: 1px solid #01942A;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #01942A;
+    padding: 10px;
+}
+
+.shopping-cart2-page .cart-2 .cart-button2 {
+    background: #01942A;
+    border: 1px solid #01942A;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+}
+
+.shopping-cart2-page .shopping-cart hr {
+    border: 1px solid #D5C183;
+    width: 100%;
+}
+
+.shopping-cart2-page .image-box {
+    /* width: 80px;
+    height: 80px; */
+    width: 15%;
+    height: 15%;
+    margin: 0 auto;
+}
+
+.shopping-cart2-page .quantity-input {
     background: #FFFFFF;
     border: 0.5px solid #01942A;
     box-sizing: border-box;
     border-radius: 2px;
-    width: 50%;
+    width: 40%;
+    color: #01942A;
+    font-weight: bold;
 }
 
-.shopping-cart .payment-info {
+.shopping-cart2-page .product-name {
+    margin-right: 100px;
+}
+
+
+/* CHECKOUT PAGE */
+
+.checkout-page .info-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 98%;
+    padding: 40px 50px;
+}
+
+.checkout-page .payment-info {
     background: #FFFFFF;
     box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 30px;
 }
 
-.shopping-cart .payment-info hr {
-    border: 0.5px solid #D5C183;
+.checkout-page .payment-info hr {
+    border: 0.3px solid #D5C183;
+    width: 100%;
 }
 
-.shopping-cart .payment-info .card-details button {
+.checkout-page .payment-info .master-card-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.checkout-page .payment-info .paypal-box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    /* height: auto; */
+    padding: 5px 0;
+}
+
+.checkout-page .payment-info .card-details button {
     background: #01942A;
     border: 1px solid #01942A;
     box-sizing: border-box;
@@ -594,10 +642,13 @@ margin-top: 700px; */
     color: #FFFFFF;
 }
 
-.shopping-cart-page .stone .image-box {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
+.checkout-page .payment-info input {
+    border-bottom: 0.5px solid #D5C183 !important;
+}
+
+.checkout-page .payment-info select {
+    border: 0;
+    border-bottom: 0.5px solid #D5C183 !important;
 }
 
 
