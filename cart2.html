@@ -90,223 +90,101 @@
         <section class="shopping-cart">
             <div class="container">
                 <h2 class="font-weight-bold pb-5 pt-5 mb-3 red">Shopping Cart</h2>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 cart-2">
-                        <div class="">
-                            <div class="cart-title">
-                                <div class="row justify-content-center align-content-center">
-                                    <div class="col-sm-3">
-                                        <h5>Product</h5>
-                                    </div>
-                                    <div class="col-sm-1"></div>
-                                    <div class="col-sm-1"></div>
-                                    <div class="col-sm-4 text-center">
-                                        <h5>Quantity</h5>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <h5>Total Price</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="cart-product">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="image-box">
-                                            <img class="img-fluid img-100" src="./images/bottle.png">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="info">
-                                            <div class="row justify-content-center align-items-center">
-                                                <div class="col-md-5">
-                                                    <p class="product-name pt-4">Powdered Ginseng, 50g</p>
-                                                </div>
-                                                <div class="col-md-4 quantity">
-
-                                                    <input id="quantity" type="number" value="1" min="1" class="form-control quantity-input">
-                                                    <!-- <div class="input-group quantity-input">
-                                                        <span class="input-group-btn">
-                                                            <button type="button"
-                                                                class="quantity-left-minus btn btn-number"
-                                                                data-type="minus" data-field="">
-                                                                <i class="fas fa-minus pr-3"></i>
-                                                            </button>
-                                                        </span>
-                                                        <input type="text" id="quantity" name="quantity"
-                                                            class="form-control input-number" value="10" min="1"
-                                                            max="100">
-                                                        <span class="input-group-btn">
-                                                            <button type="button"
-                                                                class="quantity-right-plus btn btn-number"
-                                                                data-type="plus" data-field="">
-                                                                <i class="fas fa-plus pr-3"></i>
-                                                            </button>
-                                                        </span>
-                                                    </div> -->
-                                                </div>
-
-                                                <div class="col-md-3">
-                                                    <h5 class="red font-weight-bold">C$ 35.00</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="cart-product">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="image-box">
-                                            <img class="img-fluid img-100" src="./images/green_pack.svg">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="info">
-                                            <div class="row justify-content-center align-items-center">
-                                                <div class="col-md-5">
-                                                    <p class="product-name pt-4">Small-sized sliced ginseng root, 250g
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-4 quantity">
-
-                                                    <input id="quantity" type="number" value="1" min="1" class="form-control quantity-input">
-                                                </div>
-
-                                                <div class="col-md-3">
-                                                    <h5 class="red font-weight-bold">C$ 82.00</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="cart-product">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="image-box">
-                                            <img class="img-fluid img-100" src="./images/iron-pack.svg">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="info">
-                                            <div class="row justify-content-center align-items-center">
-                                                <div class="col-md-5">
-                                                    <p class="product-name pt-4">Small-sized sliced ginseng root, 250g
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-4 quantity">
-
-                                                    <input id="quantity" type="number" value="1" min="1" class="form-control quantity-input">
-                                                </div>
-
-                                                <div class="col-md-3">
-                                                    <h5 class="red font-weight-bold">C$ 82.00</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="cart-title">
-                                <div class="row justify-content-center align-content-center">
-                                    <div class="col-sm-4">
-                                        <button type="button" class="btn btn-block">
-                                                <i class="fa fa-long-arrow-alt-left fa-lg"></i>
-                                                Continue Shopping </button>
-                                    </div>
-                                    <div class="col-sm-2"></div>
-                                    <div class="col-sm-6">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <p class="font-weight-bold">Subtotal:</p>
-                                            </div>
-                                            <div class="col-sm-6"><span class="red font-weight-bold">C$ 147.00</span></div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <p class="font-weight-bold">Shipping:</p>
-                                            </div>
-                                            <div class="col-sm-6"><span class="red font-weight-bold">C$ 0.00</span></div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <p class="font-weight-bold">Total:</p>
-                                            </div>
-                                            <div class="col-sm-6"><span class="red font-weight-bold">C$ 147.00</span></div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
+                <div class="cart-2">
+                    <div class="row ash">
+                        <div class="col-sm">
+                            <h5>Product</h5>
+                        </div>
+                        <div class="col-sm">
+                            <h5>Quantity</h5>
+                        </div>
+                        <div class="col-sm">
+                            <h5>Total Price</h5>
                         </div>
                     </div>
-                    <!-- <div class="col-md-12 col-lg-4 payment-info">
-                        <h4 class="red font-weight-bold mt-2 text-left">Payment Information</h4>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>Payment Method</p>
-                                <div>
-                                    <img src="./images/masterCard.svg" alt="">
-                                </div>
+                    <div class="row">
+                        <div class="col-sm d-flex">
+                            <div class="image-box">
+                                <img class="img-fluid img-100" src="./images/bottle.png">
                             </div>
-                            <div class="col-md-6">
-                                <br>
-                                <br>
-                                <img src="./images/paypal.svg" alt="">
-                            </div>
+                            <p class="product-name pt-4 ash">Powdered Ginseng, 50g</p>
                         </div>
-                        <hr>
-                        <form>
-                            <div class="card-details">
-                                <div class="row">
-                                    <div class="form-group col-sm-12">
-                                        <div class="md-form">
-
-                                            <input type="text" id="FormCardName" class="form-control">
-                                            <label for="FormCardName" class="font-weight-light">Name on
-                                                Card</label>
-                                        </div>
-                                        <div class="md-form">
-                                            <input type="password" id="FormCardPassword" class="form-control">
-                                            <label for="FormCardPassword" class="font-weight-light">Card
-                                                Number</label>
-                                        </div>
-
-                                    </div>
-                                    <div class="md-form col-sm-4">
-                                        <select class="browser-default custom-select">
-                                            <option selected>MM</option>
-                                            <option value="1">01</option>
-                                            <option value="2">02</option>
-                                            <option value="3">03</option>
-                                        </select>
-                                    </div>
-                                    <div class="md-form col-sm-4">
-                                        <select class="browser-default custom-select">
-                                            <option selected>YYYY</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <div class="md-form col-sm-4">
-                                        <input type="text" id="CVV" class="form-control">
-                                        <label for="CVV" class="font-weight-light">CVV</label>
-                                    </div>
-                                    <div class="form-group col-sm-12">
-                                        <button type="button" class="btn btn-block">Checkout <i
-                                                class="fa fa-long-arrow-alt-right fa-lg"></i></button>
-                                    </div>
-                                </div>
+                        <div class="col-sm"><input id="quantity" type="number" value="1" min="1" class="form-control quantity-input"></div>
+                        <div class="col-sm">
+                            <h5 class="red font-weight-bold">C$ 35.00</h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-center align-content-center">
+                            <div class="image-box">
+                                <img class="img-fluid" src="./images/green_pack.svg">
                             </div>
-                        </form>
-                    </div> -->
+                            <p class="product-name pt-4">Small-sized sliced ginseng root, 250g
+                            </p>
+                        </div>
+                        <div class="col-sm"><input id="quantity" type="number" value="1" min="1" class="form-control quantity-input"></div>
+                        <div class="col-sm">
+                            <h5 class="red font-weight-bold">C$ 82.00</h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-center align-content-center">
+                            <div class="image-box">
+                                <img class="img-fluid img-100" src="./images/iron-pack.svg">
+                            </div>
+                            <p class="product-name pt-4">Small-sized sliced ginseng root, 250g
+                            </p>
+                        </div>
+                        <div class="col-sm"><input id="quantity" type="number" value="1" min="1" class="form-control quantity-input"></div>
+                        <div class="col-sm">
+                            <h5 class="red font-weight-bold">C$ 82.00</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-center align-content-center">
+                        </div>
+                        <div class="col-sm">
+                            <p class="font-weight-bold">Subtotal:</p>
+                        </div>
+                        <div class="col-sm">
+                            <span class="red font-weight-bold">C$ 147.00</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-center align-content-center">
+                        </div>
+                        <div class="col-sm">
+                            <p class="font-weight-bold">Shipping:</p>
+                        </div>
+                        <div class="col-sm">
+                            <span class="red font-weight-bold">C$ 0.00</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-center align-content-center">
+                        </div>
+                        <div class="col-sm">
+                            <p class="font-weight-bold">Total:</p>
+                        </div>
+                        <div class="col-sm">
+                            <span class="red font-weight-bold ml-auto">C$ 147.00</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm d-flex justify-content-center align-content-center">
+                            <button type="button" class="btn cart-button1">
+                                <i class="fa fa-long-arrow-alt-left fa-lg"></i>
+                                Continue Shopping </button>
+                        </div>
+                        <div class="col-sm">
+
+                        </div>
+                        <div class="col-sm">
+                            <button type="button" class="btn cart-button2">Checkout <i class="fa fa-long-arrow-alt-right fa-lg"></i> </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
