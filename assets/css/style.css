@@ -539,25 +539,6 @@ margin-top: 700px; */
 
 /*  SHOPPING CART */
 
-.shopping-cart .payment-info {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.shopping-cart .payment-info hr {
-    border: 0.5px solid #D5C183;
-}
-
-.shopping-cart .payment-info .card-details button {
-    background: #01942A;
-    border: 1px solid #01942A;
-    box-sizing: border-box;
-    border-radius: 2px;
-    color: #FFFFFF;
-}
-
 .shopping-cart2-page .stone .image-box {
     width: 80px;
     height: 80px;
@@ -614,6 +595,36 @@ margin-top: 700px; */
 
 .shopping-cart2-page .product-name {
     margin-right: 100px;
+}
+
+
+/* CHECKOUT PAGE */
+
+.checkout-page .address {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    width: 98%;
+    padding: 20px;
+}
+
+.checkout-page .payment-info {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.checkout-page .payment-info hr {
+    border: 0.5px solid #D5C183;
+}
+
+.checkout-page .payment-info .card-details button {
+    background: #01942A;
+    border: 1px solid #01942A;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #FFFFFF;
 }
 
 
